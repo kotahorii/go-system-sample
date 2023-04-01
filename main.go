@@ -1,10 +1,7 @@
 package main
 
-import "github.com/go-system-test/q1"
+import "github.com/go-system-test/server"
 
 func main() {
-	err := q1.ZipWrite()
-	if err != nil {
-		panic(err)
-	}
+	server.Example()
 }
